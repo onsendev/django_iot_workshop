@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from remo.models import SensorValue
-from remo.api import NatureRemoApi
+from remo.modules.api import NatureRemoApi
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
